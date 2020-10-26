@@ -82,7 +82,7 @@ function createHomePage(obj) {
       return mainDiv;
 }
 
-$.get('https://5d76bf96515d1a0014085cf9.mockapi.io/product', function(data, status) {
+$.get('https://5f87e6be49ccbb0016177ba2.mockapi.io/product', function(data, status) {
     var response = data;
      for(var i = 0; i<response.length; i++){
         if(response[i].isAccessory){
